@@ -1,0 +1,15 @@
+URLs:
+
+http://127.0.0.1:5000 			  		(for homa page, entire json is there)
+http://127.0.0.1:5000/j_id				(retrieve a single joke by id)
+http://127.0.0.1:5000/Alljokes				(list all jokes from entire database)
+http://127.0.0.1:5000/category 		  		(list all categories)
+http://127.0.0.1:5000/category/id 	  		(list all jokes from a category with like/dislike and contents)
+http://127.0.0.1:5000/category/id/catJokes 		(list all jokes from a category only contents)
+http://127.0.0.1:5000/category/Allrandom  		(Retrieve a random joke from entire jokes)
+http://127.0.0.1:5000/category/id/catJokes/random	(Retrieve a random joke from a category)
+http://127.0.0.1:5000/category/id/catJokes/id		(Retrieve a single joke by id)
+
+
+{"catJokes": [
+  {"content": "c3story0", "dislike": 0, "id": 0, "like": 0,"j_id":"2029"}], "id": 2, "name": "FinnishJokes"}
